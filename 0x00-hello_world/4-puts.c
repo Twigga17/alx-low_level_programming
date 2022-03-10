@@ -2,16 +2,11 @@
 
 /**
  *
- * * main - print the string in the put function
+ * main - prints the phrase with proper grammar
  *
- * *
+ * * but the outcome is good
  *
- * * Description: using the main function
- *
- * * this program prints "Programming is like building a multilingual puzzle
- *
- * * Return: 0
- *
+ * Return: 0 if exited properly, non-zero otherwise
  *
  */
 
@@ -19,7 +14,7 @@ int main(void)
 
 {
 
-		puts("\"Programming is like building a multilingual puzzle");
+		puts("with proper grammar, but the outcome is a piece of art,\n");
 
 			return (0);
 
