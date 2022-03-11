@@ -11,6 +11,7 @@ int main(void)
 {
 int n;
 int last;
+int i;
 srand(time(0));
 
 
