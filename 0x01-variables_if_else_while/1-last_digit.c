@@ -2,7 +2,7 @@
 #include<time.h>
 #include<stdlib.h>
 /**
- * main-main block
+ * main - main block
  *
  * Description-Get a random number and check the last digit, compare with 5
  * Return:0
@@ -11,6 +11,7 @@ int main(void)
 {
 int n;
 int last;
+
 srand(time(0));
 
 
