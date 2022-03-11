@@ -1,8 +1,11 @@
 #include<stdio.h>
 /**
  * main - main block
+ *
  * Description: prints the alphabet in lowercase
+ *
  * then in uppercase,follwed by newline.
+ *
  * Return:0
  */
 int main(void)
@@ -16,5 +19,8 @@ c++;
 c = 'A';
 while (c <= 'Z')
 {
+putchar(c);
+c++;
 putchar ('\n');
 return (0);
+}
