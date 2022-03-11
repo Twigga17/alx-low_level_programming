@@ -2,9 +2,9 @@
 /**
  * main : main block
  *
- * Description: prints the alphabet in lowercase
+ * Description:prints the alphabet in lowercase,
  *
- * then in uppercase,follwed by newline.
+ * then in uppercase,followed by newline.
  *
  * Return:0
  */
