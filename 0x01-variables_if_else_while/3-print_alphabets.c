@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main - main block
+ * main : main block
  *
  * Description: prints the alphabet in lowercase
  *
@@ -22,5 +22,6 @@ while (c <= 'Z')
 putchar(c);
 c++;
 putchar ('\n');
+
 return (0);
 }
