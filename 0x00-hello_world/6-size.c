@@ -1,11 +1,13 @@
 #include<stdio.h>
+
 /**
  * main - Entry point
+ *
  * Description: using the main function
  *
- * this prints "Programming is like building a multilingual puzzle"
+ * this program prints "Programming is like building a multilingual puzzle"
  *
- * Return: Always 0 (Success)
+ * Return: 0
  */
 int main(void)
 {
@@ -14,6 +16,7 @@ int main(void)
 	long li;
 	long long lli;
 	float f;
+
 
 printf("Size of a char: % ld byte(s)\n", sizeof(c));
 printf("Size of an int: % ld byte(s)\n", sizeof(i));
