@@ -1,11 +1,8 @@
 #include<stdio.h>
 /**
- * main : main block
- *
- * Description : prints the alphabet in lowercase,
- *
- * then in uppercase,followed by newline.
- *
+ * main - main block
+ * Description: prints the alphabet in lowercase,
+ * and then in uppercase,followed by anew line
  * Return:0
  */
 int main(void)
