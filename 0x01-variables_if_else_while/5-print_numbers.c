@@ -10,9 +10,10 @@ int main(void)
 int c = 0;
 while (c < 10)
 {
-char(48 + c);
+putchar( 48 + c);
 c++;
 }
-char ('\n');
+putchar ('\n');
+
 return (0);
 }
