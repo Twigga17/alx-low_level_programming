@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main - main block
+ * main : main block
  *
  * Description: print all single digit numbers of base 10
  *
@@ -11,7 +11,8 @@
  */
 int main(void)
 {
-int c = 0
+
+int 'c' = 0;
 
 while (c < 10)
 {
