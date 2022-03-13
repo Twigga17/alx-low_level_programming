@@ -17,6 +17,7 @@ while (b < 10)
 a = 0;
 while (a < 10)
 {
+if (b != a && b < a)	
 putchar ('0' + b);
 putchar ('0' + a);
 if (a + b != 18)
