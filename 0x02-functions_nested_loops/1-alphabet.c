@@ -5,17 +5,11 @@
  * Followed by new line
  * Return: 0
  */
-int main(void)
+void print_alphabet(void)
 {
-	int a;
-	int z;
+	int c = i;
 
-	char c = 'a';
-	while (c <= 'z')
-	{
-		_putchar(c);
-		c++;
-	}
+	for (i = 97; i <= 122; i++)
 	_putchar('\n');
 	return (0);
 }
