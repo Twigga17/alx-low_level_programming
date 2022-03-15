@@ -6,14 +6,13 @@
  *
  * Return: 0
  */
-int main(void)
+void print_alphabet(void)
 {
 	char c = 'a';
 	while (c <= 'z')
 	{
-		putchar(c);
+		_putchar(c);
 		c++;
 	}
-	putchar('\n')
-		return (0);
+	_putchar('\n')
 }
