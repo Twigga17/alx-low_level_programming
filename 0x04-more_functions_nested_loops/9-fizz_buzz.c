@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
  * main - entry point
  *
- * Description: prints fizzbuzz
+ * Description: prints FizzBuzz
  *
  * Return: void
  */
@@ -21,6 +22,10 @@ int main(void)
 			printf("Fizz");
 		else
 			printf("%i", n);
+		if (n < 100)
+			printf(" ");
+		else
+			printf("\n");
 	}
 	return (0);
 }
