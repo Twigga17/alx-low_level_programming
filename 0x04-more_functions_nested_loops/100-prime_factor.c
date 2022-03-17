@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include <math>
+#include <math.h>
 
 /**
  * main - prints the biggest prime factor of a number.
  *
  * followed by a new line
  *
- * Return: Always 0.
+ * Return: Always 0
  */
 
 int main(void)
