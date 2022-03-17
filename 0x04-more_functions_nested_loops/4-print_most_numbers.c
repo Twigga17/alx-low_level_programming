@@ -5,7 +5,7 @@
  * followed by a new line
  * and not print 2 and 4
  *
- * Return: Always 0.
+ * Return: void
  */
 
 void print_most_numbers(void)
@@ -14,8 +14,8 @@ void print_most_numbers(void)
 
 	for (c = '0'; c <= '9'; c++)
 	{
-		if (c == '2' || c == '4');
-
+		if (c == '2' || c == '4')
+			;
 		else
 			_putchar(c);
 	}
