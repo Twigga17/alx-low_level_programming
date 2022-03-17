@@ -9,7 +9,7 @@
 
 void print_diagonal(int n)
 {
-	int c;
+	int row, num_lines;
 
 	if (n <= 0)
 	{
@@ -17,11 +17,17 @@ void print_diagonal(int n)
 	}
 	else
 	{
-		for (c = 1; c <= n; c++)
+		for (row = 1; row <= n; row++)
 		{
-			_putchar('\');
+			if (row > 1)
+			{
+				for (num_lines = 1; num_lines <= row - 1; num_lines++)
+				{
+					_putchar(' ');
+				}
+			}
+			_putchar('\\');
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
-
