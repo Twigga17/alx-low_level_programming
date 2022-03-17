@@ -4,6 +4,7 @@
  * print_most_numbers - prints the numbers 0 to 9
  * followed by a new line
  * and not print 2 and 4
+ *
  * Return: Always 0.
  */
 
