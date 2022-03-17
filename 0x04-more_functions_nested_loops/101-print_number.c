@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_number - print an integer
- * @n: tracked variable
+ * print_number - prints an integer
+ * @n: tracked var
  */
 
 void print_number(int n)
