@@ -9,7 +9,7 @@
 
 void print_line(int n)
 {
-	int num_lines;
+	int c;
 
 	if (n <= 0)
 	{
@@ -17,9 +17,9 @@ void print_line(int n)
 	}
 	else
 	{
-		for (num_lines = 1; num_lines <= n; num_lines++)
+		for (c = 1; c <= n; c++)
 		{
-			_putchar('_')
+			_putchar('_');
 		}
 		_putchar('\n');
 	}
