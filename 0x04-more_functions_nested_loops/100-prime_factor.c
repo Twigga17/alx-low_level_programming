@@ -48,13 +48,13 @@ int isPrime(long int n)
 				return (0);
 			}
 		}
-		return (1);
+	return (1);
 	}
 }
 /**
- * biggestFactor - returns the biggest prime factor of anumber
+ * biggestFactor - returns the biggest prime factor of a number
  * @a: number to check
- * Return: biggest Factor
+ * Return: biggest factor
  */
 long int biggestFactor(long int a)
 {
@@ -63,13 +63,13 @@ long int biggestFactor(long int a)
 	factor = a;
 	for (i = 2; i <= factor; i++)
 	{
-		if (isPrime(factor) == i)
+		if (isPrime(factor) == 1)
 		{
 			break;
 		}
 		else
 		{
-			if ((factor % i == 0) && (isPrime(i) == i))
+			if ((factor % i == 0) && (isPrime(i) == 1))
 			{
 				factor = factor / i;
 				continue;
