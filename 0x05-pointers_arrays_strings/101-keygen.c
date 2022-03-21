@@ -4,13 +4,16 @@
 #include <stdio.h>
 
 /**
+ * main - Entry point
+ * Return: 0
  */
 
 int main(void)
 {
 	int num;
+
 	srand(time(0));
 	num = rand();
-	printf("Anything; %i\n", num);
+	printf("%i\n", num);
 	return (0);
 }
