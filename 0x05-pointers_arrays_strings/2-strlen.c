@@ -5,7 +5,7 @@
  * @s: parameter
  * Return: 0
  */
-int _strlen(char *s);
+int _strlen(char *s)
 {
 	int i = 0;
 
