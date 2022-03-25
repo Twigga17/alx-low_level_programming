@@ -3,7 +3,7 @@
 /**
  * leet - function that encodes a string into 1337
  * @str: character to be checked
- * Return: if sepearator returns 1. Otherwise return 0;
+ * Return: if sepearator returns 1, Otherwise return 0
  */
 char *leet(char *str)
 {
