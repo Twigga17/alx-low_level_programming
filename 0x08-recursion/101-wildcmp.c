@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * wildcmp - function
+ * wildcmp - Function
  *
- * @s1: variable
- * @s2: variable
+ * @s1: Variable
+ * @s2: Variable
  *
  * Return: Int
  */
