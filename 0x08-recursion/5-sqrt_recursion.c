@@ -25,7 +25,6 @@ int find_sqrt(int num, int root)
 /**
  * _sqrt_recursion - returns the natural square root of a number
  * @n: integer
- * @root: root to be tested
  * Return: value
  */
 int _sqrt_recursion(int n)
