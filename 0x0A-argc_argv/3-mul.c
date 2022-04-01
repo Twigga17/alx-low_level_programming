@@ -11,18 +11,17 @@
 
 int main(int argc, char *argv[])
 {
+	int a, b, result;
 
-	/*Declaring variables*/
-	int count = 0;
-
-	if (argc > 0)
+	if (argc <= 2)
 	{
-		/*while - Print each arguments*/
-		while (count < argc)
-		{
-			printf("%s\n", argv[count]);
-			count++;
-		}
+		printf("Error\n");
+		return (1);
 	}
+
+	a = atoi(argv[1]);
+	b = atoi(argv[2]);
+	result = a * b;
+	printf("%d\n", result);
 	return (0);
 }
