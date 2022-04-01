@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * main - Print the name of the program
  * @argv: Arguments
  * @argc: Count arguments
  *
- * Return: Alwayys 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(int argc, char *argv[])
