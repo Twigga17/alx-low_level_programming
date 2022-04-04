@@ -72,3 +72,4 @@ char **strtow(char *str)
 	}
 	strDup[i] = '\0';
 	return (strDup);
+}
