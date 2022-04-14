@@ -2,7 +2,7 @@
 #include "variadic_functions.h"
 /**
  * print_strings - printsstrings followed by a new line
- * @seperator: seperators
+ * @separator: seperators
  * @n: number of arguments
  */
 void print_strings(const char *separator, const unsigned int n, ...)
