@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdio.h>
 
 /**
  * listint_len - Function return len
@@ -6,11 +7,16 @@
  *
  * Return: size_t length of list
  */
+
 size_t listint_len(const listint_t *h)
 {
-	size_t i = 0;
+	size_t nbr_element = 0;
+	const listint_t *current = h;
 
-	while (h)
-		h = h->next, i++;
-	return (i);
+	while (current != NULL)
+	{
+		current = current->next;
+		nbr_element++;
+	}
+	return (nbr_element);
 }
