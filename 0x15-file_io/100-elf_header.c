@@ -1,13 +1,8 @@
-<<<<<<< HEAD
 #include "main.h"
 #include <elf.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
-=======
-#include <stdio.h>
-#include "main.h"
->>>>>>> 2fcb70525aec0a1c2fd3fdb230188e36c23ef508
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -31,7 +26,6 @@ void close_elf(int elf);
  */
 void check_elf(unsigned char *e_ident)
 {
-<<<<<<< HEAD
 	int index;
 
 	for (index = 0; index < 4; index++)
@@ -319,8 +313,6 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 	close_elf(o);
 	return (0);
 }
-=======
 return (1);
 return (0);
 }
->>>>>>> 2fcb70525aec0a1c2fd3fdb230188e36c23ef508
